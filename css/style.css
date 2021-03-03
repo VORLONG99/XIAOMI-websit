@@ -1,0 +1,585 @@
+/**顶部**/
+.top{
+	width:100%;
+	height:40px;
+	background-color:#333;
+}
+.container{
+	width:1230px;
+	height:100%;
+	margin:0 auto;
+}
+.top .top-list{
+	float:left;
+}
+.top .top-list a:hover{
+	color:#fff;
+}
+.top .top-shopcar{
+	float:right;
+	width:120px;
+	height:40px;
+	text-align:center;
+	margin-left:30px;
+}
+.top .container .top-shopcar a{
+	width:120px;
+	height:40px;
+	background-color:#ff6700;
+	color:#fff;
+}
+.top .top-shopcar a:hover{
+	background-color:#424242;
+}
+.top .top-login{
+	float:right;
+}
+.top .top-login a:hover{
+	color:#fff;
+}
+.top a{
+	color:#b0b0b0;
+	/* display 属性规定元素应该生成的框的类型。
+	   inline-block	行内块元素。 */
+	display:inline-block;
+	line-height:40px;
+	font-size:12px;
+}
+.top span{
+	color:#ccc;
+	margin:0 3px;
+	font-size:12px;
+}
+/**头部**/
+.header{
+	width:100%;
+	height:100px;
+	/* position属性指定一个元素（静态的，相对的，绝对或固定）的定位方法的类型 
+	   position:relative生成相对定位的元素，相对于其正常位置进行定位。*/
+	position:relative;
+}
+.header .header-logo{
+	position:relative;
+	margin-top:22px;
+	float:left;
+	/* z-index 属性设置元素的堆叠顺序。拥有更高堆叠顺序的元素总是会处于堆叠顺序较低的元素的前面。 
+	   默认的 z-index 是 0。Z-index 1 拥有更高的优先级。Z-index -1 拥有更低的优先级*/
+	z-index:1;
+}
+.header .header-logo a{
+	display:block;
+}
+.header .header-list{
+	float:right;
+}
+
+.header .header-list .header-ul-heng{
+	height:50px;
+	padding:0px 0 40px 0px;
+	font-size:16px;
+}
+.header .header-list .header-ul-heng>li{
+	float:left;
+	height:100px;
+}
+.header .header-list .header-ul-heng>li>a{
+	display:block;
+	padding:37px 10px 38px;
+	color:#000;
+}
+.header .header-list .header-ul-heng>li>a:hover{
+	color:#ff6700;
+}
+.header .header-list .header-ul-heng .header-gif>a{
+	padding:17px;
+}
+.header .header-search{
+	float:right;
+}
+.header .header-search form input:nth-child(1){
+	height:52px;
+	width:250px;
+	margin-top:23px;
+	float:left;
+	border:1px #ccc solid;
+}
+.header .header-search form input:nth-child(1):hover{
+	border:1px #ff6700 solid;
+}
+.header .header-search form input:nth-child(2){
+	height:56px;
+	width:50px;
+	margin-left:0;
+	float:left;
+	margin-top:23px;
+	border:1px #ccc solid;
+	background-color:#fff;
+}
+.header .header-search form input:nth-child(2):hover{
+	border:1px #ff6700 solid;
+	color:#FF6700;
+}
+.header .container{
+	z-index:1;
+}
+.header .header-div-shu{
+	/* position:absolute生成绝对定位的元素，相对于 static 定位以外的第一个父元素进行定位。
+	   这个用的最多，因为可以直接定位在某一个具体位置 
+	   top:控制距离顶部的位置
+	   left:控制距离左边的位置*/
+	position:absolute;
+	top:78px;
+	left:0;
+	width:230px;
+	height:460px;
+	background-color:#00000070;
+	z-index:1px;
+}
+.header .header-ul-shu{
+	width:210px;
+	height:460px;
+	padding-top:20px;
+}
+.header .header-ul-shu .header-li-shu{
+	width:230px;
+	height:42px;
+}
+.header  .header-a-shu{
+	padding:10px 0 0 30px;
+	display:block;
+	width:200px;
+	height:32px;
+	color:#fff;
+}
+.header .header-a-shu:hover{
+	background-color:#FF6700;
+}
+.header .header-ul-shu .header-li-shu:hover .header-span-ka{
+	display:block;
+}
+.header .header-span-ka{
+	position:absolute;
+	top:0;
+	left:230px;
+	width:1000px;
+	height:460px;
+	background-color:#fff;
+	display:none;
+	/* boxShadow 属性把一个或多个下拉阴影添加到框上。该属性是一个用逗号分隔阴影的列表，每个阴影由 2-4 个长度值、一个可选的颜色值和一个可选的 inset 关键字来规定。省略长度的值是 0。 */
+	box-shadow:10px 10px 10px -10px #00000070;
+	/* border-top 简写属性把上边框的所有属性设置到一个声明中 */
+	border-top:1px #CCCCCC solid;
+	float:left;
+}
+.header .header-ul-ka{
+	width:1000px;
+	height:460px;
+}
+.header .header-ul-ka li{
+	float:left;
+	width:250px;
+	height:76px;
+}
+.header .header-ul-ka li a{
+	display:block;
+	width:230px;
+	height:61px;
+	padding:15px 0 0 20px;
+}
+.header .header-ul-ka img{
+	width:50px;
+	height:50px;
+	float:left;
+	margin-right:20px;
+}
+.header .header-ul-ka p{
+	line-height:50px;
+	color:#000;
+	font-size:14px;
+}
+.header .header-ul-ka p:hover{
+	color:#FF6700;
+}
+.box{
+	width:100%;
+	height:460px;
+}
+.box .container{
+	position:relative;
+	top:0;
+	left:0;
+}
+.box .box-img{
+	position:absolute;
+	top:0;
+	left:0;
+	/* Opacity属性设置一个元素的透明度级别。
+	语法:opacity: value|inherit;
+	value	指定不透明度。从0.0（完全透明）到1.0（完全不透明）
+	inherit	Opacity属性的值应该从父元素继承
+	 */
+	opacity:0;
+	/* transition 属性设置元素当过渡效果，四个简写属性为：transition: property duration timing-function delay;
+	transition-property	指定CSS属性的name，transition效果 默认值为all
+	transition-duration	transition效果需要指定多少秒或毫秒才能完成 默认值为0
+	transition-timing-function	指定transition效果的转速曲线  默认值为ease
+	transition-delay	定义transition效果开始的时候  默认值为0
+	*/
+	transition:all 0.5s;
+} 
+.box .box-img{
+	position:absolute;
+	top:0;
+	left:0;
+	opacity:0;
+	transition:all 1.5s;
+} 
+.box .box-qiehuan-left{
+	width:35px;
+	height:70px;
+	position:absolute;
+	top:195px;
+	/* border-radius 属性允许您为元素添加圆角边框！
+	 每个半径的四个值的顺序是：左上角，右上角，右下角，左下角。如果省略左下角，右上角是相同的。如果省略右下角，左上角是相同的。如果省略右上角，左上角是相同的。*/
+	border-radius:0 4px 4px 0;
+	left:230px;
+	color:rgb(32, 19, 19);
+	font-size:35px;
+	text-align:center;
+	line-height:70px;
+	/* cursor属性定义了鼠标指针放在一个元素边界范围内时所用的光标形状
+	   pointer	光标呈现为指示链接的指针（一只手）
+	   default	默认光标（通常是一个箭头）*/
+	cursor:pointer;
+}
+.box .box-qiehuan-right{
+	width:35px;
+	height:70px;
+	position:absolute;
+	top:195px;
+	border-radius:4px 0 0 4px;
+	right:0;
+	color:#ccc;
+	font-size:35px;
+	text-align:center;
+	line-height:70px;
+	cursor:pointer;
+}
+.box .box-qiehuan-left:hover,.box .box-qiehuan-right:hover{
+	color:#fff;
+	background-color:#00000080;
+}
+.box .box-img:nth-child(1){ 
+	opacity:1;
+}
+.box .box-qiehuan-dian{
+	position:absolute;
+	right:100px;
+	bottom:30px;
+}
+.box .box-qiehuan-dian-li{
+	width:14px;
+	height:14px;
+	border-radius:100%;
+	float:left;
+	margin-right:10px;
+	background-color:#CCCCCC;
+}
+.box .box-qiehuan-dian-li:nth-child(1){
+	background-color:#fff;
+}
+.box .box-qiehuan-dian-li:hover{
+	background-color:#fff !important;
+}
+.header .header-span-hengs{
+	display:none;
+	position:absolute;
+	width:100%;
+	height:230px;
+	left:0;
+	background-color:#fff;
+	z-index:1;
+	/*1. border-top 简写属性把上边框的所有属性设置到一个声明中
+	  2.语法：box-shadow: h-shadow v-shadow blur spread color inset;
+	h-shadow	必需。水平阴影的位置。允许负值。
+	v-shadow	必需。垂直阴影的位置。允许负值。
+	blur	可选。模糊距离。
+	spread	可选。阴影的尺寸。
+	color	可选。阴影的颜色。
+	inset	可选。将外部阴影 (outset) 改为内部阴影。
+	*/
+	border-top:1px #e0e0e0 solid;
+	box-shadow:0px 10px 10px -15px #00000070;
+	/* overflow属性指定如果内容溢出一个元素的框，会发生什么。
+	overflow:hidden	内容会被修剪，并且其余内容是不可见的。 */
+	overflow:hidden;
+	/* margin-top属性设置元素的上部边距。 */
+	margin-top:10px;
+}
+.header .header-ul-hengs{
+	height:230px;
+}
+.header .header-ul-hengs li:nth-child(odd){
+	width:200px;
+	height:230px !important;
+	float:left;
+	text-align:center;
+}
+.header .header-ul-hengs img{
+	width:160px;
+	height:110px;
+}
+.header .header-ul-hengs a{
+	height:200px;
+	display:block;
+	color:#fff;
+	padding-top:30px;
+}
+.header .header-ul-hengs p:nth-child(2){
+	font-size:12px;
+	font-weight:bold;
+	margin-top:10px;
+	color:#000;
+}
+.header .header-ul-hengs p:nth-child(3){
+	color:#FF6700;
+	font-size:12px;
+}
+.header .header-ul-hengs li:nth-child(even) div{
+	width:1px;
+	height:100px !important;
+	float:left;
+	text-align:center;
+	background-color:#E0E0E0;
+	margin-top:40px;
+}
+@keyframes xiala {
+    0% {
+        height:0px;
+    }
+
+    100% {
+        height: 230px;
+    }
+}
+@keyframes xialas {
+    0% {
+        height:230px;
+    }
+
+    100% {
+        height: 0px;
+    }
+}
+.content{
+	width:100%;
+	height:190px;
+}
+.content .content-box{
+	width:100%;
+	height:170px;
+	margin-top:15px;
+}
+.content .content-box .content-box-yi{
+	width:228px;
+	height:170px;
+	background-color:#00000070;
+	float:left;
+}
+.content .content-box .content-box-yi>a{
+	display:block;
+	width:76px;
+	height:85px;
+	float:left;
+}
+.content .content-box .content-box-ul{
+	float:left;
+}
+.content .content-box .content-box-ul a>img{
+	width:76px;
+	height:85px;
+}
+.content .content-box .content-box-ul>li{
+	float:left;
+	margin-left:19px;
+	height:170px;
+}
+.content .content-box .content-box-ul>li:hover{
+	animation:shadow 0.2s forwards  linear;
+}
+.content .content-box .content-box-ul a>img{
+	width:315px;
+	height:170px;
+}
+@keyframes shadow {
+    0% {
+        box-shadow:0px 0px 0px 0px #00000040;
+    }
+
+    100% {
+        box-shadow:0px 12px 25px -10px #00000040;
+    }
+}
+.show{
+	width:100%;
+	height:670px;
+	background-color:#f5f5f5;
+}
+.show .show-top{
+	width:100%;
+	height:50px;
+}
+.show .show-top-yi {
+	width:595px;
+	height:40px;
+	float:left;
+}
+.show .show-top-yi h2{
+	font-size:22px;
+	font-weight:200;
+	line-height:0;
+}
+.show .show-top-er {
+	width:595px;
+	height:40px;
+	float:right;
+}
+.show .show-top-er>div{
+	float:right;
+	width:100px;
+}
+.show .show-top-er>a>div{
+	float:right;
+	display:block;
+	width:26px;
+	height:26px;
+	border-radius:100%;
+	color:#fff;
+	font-size:17px;
+	text-align:center;
+	line-height:29px;
+	font-weight:bold;
+	margin-top:5px;
+	background-color:#b0b0b0;
+}
+.show .show-top-er>a>p{
+	font-size:16px;
+	float:right;
+	color:#000;
+	margin:8px 10px 0 0;
+}
+.show .show-top-er>a:hover >p{
+	color:#FF6700;
+}
+.show .show-top-er>a:hover >div{
+	background-color:#FF6700;
+}
+.show .show-center{
+	width:100%;
+	height:640px;
+}
+.show .show-center-yi{
+	position:relative;
+	width:234px;
+	height:614px;
+	float:left;
+}
+.show .show-center-yi:hover{
+	animation:shadow-show 0.2s forwards  linear;
+}
+.show-center-er{
+	height:100%;
+	float:right;
+	width:996px;
+}
+.public-li{
+	position:relative;
+	width:234px;
+	height:300px;
+	background-color:#FFFFFF;
+	float:left;
+	margin:0px 0px 15px 15px;
+}
+.public-li>a{
+	width:234px;
+	height:300px;
+	display:block;
+}
+.public-li img{
+	width:160px;
+	height:160px;
+	margin:20px 0 0 35px;
+}
+.public-li p{
+	width:234px;
+	text-align:center;
+	margin-bottom:10px;
+}
+.public-li p:nth-child(2){
+	color:#000;
+	font-size:14px;
+	margin-top:15px;
+}
+.public-li p:nth-child(3){
+	color:#b0b0b0;
+	font-size:12px;
+}
+.public-li p:nth-child(4){
+	color:#FF6700;
+	font-size:14px;
+}
+.public-li:hover{
+	animation:shadow-show 0.2s forwards  linear;
+}
+.show-center-ul-yi {
+	float:left;
+}
+.show-center-ul-yi-li{
+	margin-bottom:15px;
+	position:relative;
+	width:234px;
+	height:300px;
+	background-color:#FFFFFF;
+}
+.show-center-ul-yi-li:hover{
+	animation:shadow-show 0.2s forwards  linear;
+}
+@keyframes shadow-show {
+    0% {
+		top:0px;
+        box-shadow:0px 0px 0px 0px #00000040;
+    }
+
+    100% {
+		top:-1px;
+        box-shadow:0px 12px 25px -10px #00000040;
+    }
+}
+.show-o>li:nth-last-child(-n+2){
+	height:142px;
+}
+.show-o>li:nth-last-child(-n+2)>a>div{
+	width:115px;
+	height:140px;
+	float:left;
+	
+}
+.show-o>li:nth-last-child(-n+2)>a>div>p{
+	width:117px;
+	margin-left:20px;
+}
+.show-o>li:nth-last-child(-n+2)>a>div>p:nth-child(1){
+	margin-top:40px;
+	color:#000;
+}
+.show-o>li:nth-last-child(-n+2)>a>div>p:nth-child(2){
+	color:#FF6700;
+}
+.show-o>li:nth-last-child(-n+2)>a>div>img{
+	margin:30px 0 0 20px;
+}
+.show-o>li:nth-last-child(1)>a>img{
+	height:142px;
+	width:100%;
+	margin:0px 0 0 0px;
+}

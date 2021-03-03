@@ -1,0 +1,43 @@
+*{
+	/* font - family属性指定一个元素的字体。 */
+	font-family: Times New Roman;
+}
+body,p,ul,ol,dl,dt{
+	/* margin简写属性在一个声明中设置所有外边距属性。该属性可以有1到4个值。
+	padding 简写属性在一个声明中设置所有填充属性。该属性可以有1到4个值。
+	 */
+	margin:0;
+	padding:0;
+}
+ul,ol{
+	/* list-style 简写属性在一个声明中设置所有的列表属性。
+       可以设置的属性（按顺序）： list-style-type, list-style-position, list-style-image. 
+	   list-style:none 这个语句就是说明列前没有任何序号标识*/
+	list-style:none;
+}
+input{
+	/* outline（轮廓）是绘制于元素周围的一条线，位于边框边缘的外围，可起到突出元素的作用 */
+	outline:none;
+}
+a{
+	/* text-decoration 属性规定添加到文本的修饰，下划线、上划线、删除线等。
+	如：text-decoration: none;                     没有文本装饰
+        text-decoration: underline red;            红色下划线
+        text-decoration: underline wavy red;       红色波浪形下划线 */
+	text-decoration:none;
+}
+.banana{
+	width:100%;
+	height:170px;
+	background-color:#f5f5f5;
+	padding-top: 1px;
+}
+.banana .container{
+	padding-top: 1px;
+	height:169px;
+}
+.banana .banana-div{
+	width:100%;
+	height:120px;
+	margin-top:25px;
+}
